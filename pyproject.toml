@@ -12,6 +12,7 @@ dependencies = [
     "pandas",
     "matplotlib",
     "requests",
+    "numpy",
 ]
 
 [project.optional-dependencies]
