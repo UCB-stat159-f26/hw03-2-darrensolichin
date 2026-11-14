@@ -1,0 +1,45 @@
+AI DOCUMENTATION
+
+AI TOOL USED: ChatGPT
+
+NOTE: AI assistance was used throughout this homework for guidance, troubleshooting, code generation, testing, and documentation. I reviewed and tested AI-generated outputs before incorporating them into my project.
+
+1. PROJECT SETUP
+- Prompt: Asked ChatGPT to help set up the Python package structure, including the src/tennis_career directory, __init__.py, pyproject.toml, and tests folder.
+- Output: ChatGPT explained how to configure the package, install it using pip, and use Git/GitHub commands to commit and push changes throughout the assignment.
+
+2. DATA RETRIEVAL AND PROCESSING
+- Prompt: Asked ChatGPT to help write the functions for retrieving tennis match records from Tennis Abstract and converting the JavaScript data into a pandas DataFrame.
+- Output: ChatGPT helped generate code for extracting match dates, outcomes, opponent information, and calculating player ages and age differences.
+- Output: ChatGPT helped troubleshoot differences between male and female players' data formats, including how opponent ages were represented differently.
+- I tested the functions using Serena Williams and Rafael Nadal, inspected the resulting DataFrames, and checked the match dates and age ranges.
+
+3. REPLICATING THE VISUALIZATION
+- Prompt: Asked ChatGPT to help recreate the New York Times-inspired tennis visualization using Python and Matplotlib.
+- Output: ChatGPT provided code for the scatter plot, including the win/loss colors, axis formatting, reference line, legend, and title.
+- I ran the plotting code in JupyterLab and compared the resulting Serena Williams visualization with the reference graphic.
+- Output: ChatGPT also helped reorganize the plotting code into smaller helper functions to meet the assignment's function-length requirements.
+
+4. TESTING AND DEBUGGING
+- Prompt: Asked ChatGPT to help write automated tests for the data-processing and plotting functions using pytest.
+- Output: ChatGPT generated tests using mock match records, including the male and female JavaScript examples provided in the homework instructions, so the tests would not make requests to Tennis Abstract.
+- I ran the tests in JupyterLab and verified that all 21 tests passed.
+- Output: ChatGPT also helped troubleshoot the incomplete Rafael Nadal match history and explained how to inspect the available records.
+- I tested the package installation and verified that both public functions could be imported successfully.
+
+5. README AND DOCUMENTATION
+- Prompt: Asked ChatGPT to help organize and write the README, including the project overview, repository structure, installation instructions, dependencies, usage examples, and data limitations.
+- Prompt: Provided ChatGPT with my own experiences and key takeaways for the personal reflection, and asked it to help organize and improve my writing.
+- I reviewed and edited the documentation to make sure it accurately described the package and my experience working on it.
+
+MY ROLE:
+- Set up and maintained the repository structure in JupyterLab and GitHub.
+- Ran the code for retrieving and processing match data and inspected the resulting DataFrames.
+- Tested the package with Serena Williams and Rafael Nadal to check that it worked with both female and male players.
+- Ran the plotting functions and reviewed the visualizations, including the colors, axes, labels, and overall formatting.
+- Identified that Rafael Nadal's retrieved data only extended through 2016 and checked the dataset's date range.
+- Reviewed and incorporated AI-generated code into the package files, including the data-processing, plotting, and testing functions.
+- Ran the automated tests and verified that all 21 passed.
+- Installed the package locally and confirmed that both public functions could be imported.
+- Managed Git/GitHub commits and pushed the completed files to the repository.
+- Reviewed and edited the README, personal reflection, and AI documentation before submission.
